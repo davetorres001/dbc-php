@@ -1,0 +1,16 @@
+{
+    "name": "davetorres/dbc-php",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "files": [
+            "src/dbc.php"
+        ]
+    },
+    "require": {
+        "php": "^7.1.3"
+    }
+}
