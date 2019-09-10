@@ -9,7 +9,7 @@ This is used to check that functions and methods are given the correct number of
 ```php
 function myMethod(string $arg1, int $arg2, array $arg3 = null)
 {
-    assert(check_args());
+    assert(check_num_args());
 
     // continue with your code
 }
